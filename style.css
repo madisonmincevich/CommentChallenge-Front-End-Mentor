@@ -89,7 +89,8 @@ body {
   font-size: 13px;
 }
 
-#replyingTo {
+#replyingTo,
+#replyingTo2 {
   color: #3e54a3;
   font-weight: bold;
 }
