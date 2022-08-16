@@ -2,24 +2,111 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+.container {
+  background-color: #f5f6fa;
+}
+
 .Comments {
   padding: 30px;
   margin: 0 auto;
-  background-color: antiquewhite;
+  background-color: white;
   width: 50%;
   margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.ReplyComments {
+  padding: 30px;
+  margin-left: 30%;
+  background-color: white;
+  width: 45%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#commentPosted,
+#commentPosted2,
+#commentPosted3,
+#commentPosted4 {
+  color: grey;
 }
 
 .votingBtn {
+  background-color: #f0f4f4;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#currentCommenter,
+#currentCommenter2,
+#currentCommenter3,
+#currentCommenter4 {
+  font-weight: bold;
+}
+
+#datePosted,
+#datePosted2,
+#datePosted3,
+#datePosted4 {
+  color: grey;
+}
+
+#score,
+#score2,
+#score3,
+#score4 {
+  color: #3e54a3;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.votingBtn button {
+  background-color: #f0f4f4;
+  border: none;
+  border-radius: 10px;
 }
 
 .addCommentSection {
-  display: flex;
-  justify-content: space-around;
-  background-color: gainsboro;
+  background-color: white;
   padding: 30px;
   width: 50%;
   margin: 0 auto;
+  border-radius: 10px;
+}
+
+#reply,
+#delete,
+#edit {
+  color: #3e54a3;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+}
+
+#delete,
+#edit {
+  padding: 0px;
+  font-size: 13px;
+}
+
+#replyingTo {
+  color: #3e54a3;
+  font-weight: bold;
+}
+
+.addCommentInput {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 80%;
+  padding: 10px;
+}
+
+.sendBtn {
+  background-color: #3e54a3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .attribution {

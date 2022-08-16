@@ -34,38 +34,177 @@
     <div class="container">
       <div class="Comments">
         <div class="row">
-          <div class="votingBtn col-sm-2">
-            <button id="increaseVote">
-              <img src="/images/icon-plus.svg" />
-            </button>
-            <div id="score"></div>
-            <button id="decreaseVote">
-              <img src="/images/icon-minus.svg" />
-            </button>
+          <div class="col-sm-1">
+            <div class="votingBtn">
+              <button id="increaseVote">
+                <img src="/images/icon-plus.svg" />
+              </button>
+              <div id="score"></div>
+              <button id="decreaseVote">
+                <img src="/images/icon-minus.svg" />
+              </button>
+            </div>
           </div>
-          <div class="col-sm-2">
-            <img src="\images\avatars\image-amyrobson.webp" id="profilePic" />
-          </div>
-          <div class="col-sm-3">
-            <div id="currentUser"></div>
-          </div>
-          <div class="col-sm-3">
-            <div id="datePosted"></div>
-          </div>
-          <div class="col-sm-2">
-            <button id="decreaseVote">
-              <img src="/images/icon-reply.svg" /> Reply
-            </button>
+          <div class="col-sm-11">
+            <div class="row">
+              <div class="col-2 col-sm-2">
+                <img
+                  src="\images\avatars\image-amyrobson.webp"
+                  id="profilePic"
+                />
+              </div>
+              <div class="col-3 col-sm-3">
+                <div id="currentCommenter"></div>
+              </div>
+              <div class="col-3 col-sm-3">
+                <div id="datePosted"></div>
+              </div>
+              <div class="col-3 col-sm-3">
+                <button id="reply">
+                  <img src="/images/icon-reply.svg" /> Reply
+                </button>
+              </div>
+              <div id="commentPosted" class=""></div>
+            </div>
           </div>
         </div>
-        <div id="commentPosted" class=""></div>
       </div>
-
+      <div class="Comments">
+        <div class="row">
+          <div class="col-sm-1">
+            <div class="votingBtn">
+              <button id="increaseVote">
+                <img src="/images/icon-plus.svg" />
+              </button>
+              <div id="score2"></div>
+              <button id="decreaseVote">
+                <img src="/images/icon-minus.svg" />
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-11">
+            <div class="row">
+              <div class="col-2 col-sm-2">
+                <img
+                  src="\images\avatars\image-maxblagun.webp"
+                  id="profilePic"
+                />
+              </div>
+              <div class="col-3 col-sm-3">
+                <div id="currentCommenter2"></div>
+              </div>
+              <div class="col-3 col-sm-3">
+                <div id="datePosted2"></div>
+              </div>
+              <div class="col-3 col-sm-3">
+                <button id="reply">
+                  <img src="/images/icon-reply.svg" /> Reply
+                </button>
+              </div>
+              <div id="commentPosted2" class=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="ReplyComments">
+          <div class="row">
+            <div class="col-sm-1">
+              <div class="votingBtn">
+                <button id="increaseVote">
+                  <img src="/images/icon-plus.svg" />
+                </button>
+                <div id="score3"></div>
+                <button id="decreaseVote">
+                  <img src="/images/icon-minus.svg" />
+                </button>
+              </div>
+            </div>
+            <div class="col-sm-11">
+              <div class="row">
+                <div class="col-2 col-sm-2">
+                  <img
+                    src="\images\avatars\image-ramsesmiron.webp"
+                    id="profilePic"
+                  />
+                </div>
+                <div class="col-3 col-sm-3">
+                  <div id="currentCommenter3"></div>
+                </div>
+                <div class="col-3 col-sm-3">
+                  <div id="datePosted3"></div>
+                </div>
+                <div class="col-3 col-sm-3">
+                  <button id="reply">
+                    <img src="/images/icon-reply.svg" /> Reply
+                  </button>
+                </div>
+                <span id="replyingTo"></span>
+                <div id="commentPosted3" class=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ReplyComments">
+          <div class="row">
+            <div class="col-sm-1">
+              <div class="votingBtn">
+                <button id="increaseVote">
+                  <img src="/images/icon-plus.svg" />
+                </button>
+                <div id="score4"></div>
+                <button id="decreaseVote">
+                  <img src="/images/icon-minus.svg" />
+                </button>
+              </div>
+            </div>
+            <div class="col-sm-11">
+              <div class="row">
+                <div class="col-2 col-sm-2">
+                  <img
+                    src="\images\avatars\image-juliusomo.webp"
+                    id="profilePic"
+                  />
+                </div>
+                <div class="col-3 col-sm-3">
+                  <div id="currentCommenter4"></div>
+                </div>
+                <div class="col-3 col-sm-3">
+                  <div id="datePosted4"></div>
+                </div>
+                <div class="col-2 col-sm-2">
+                  <button id="delete">
+                    <img src="/images/icon-delete.svg" /> Delete
+                  </button>
+                </div>
+                <div class="col-2 col-sm-2">
+                  <button id="edit">
+                    <img src="/images/icon-edit.svg" /> Edit
+                  </button>
+                </div>
+                <span id="replyingTo2"></span>
+                <div id="commentPosted4" class=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="addCommentSection">
-        <form>
-          <input type="text" placeholder="Add a comment here" />
-          <input type="submit" value="Send" />
-        </form>
+        <div class="row">
+          <div class="col-sm-2">
+            <img src="images/avatars/image-juliusomo.webp" />
+          </div>
+          <div class="col-sm-10">
+            <form>
+              <input
+                type="text"
+                class="addCommentInput"
+                placeholder="Add a comment here"
+              />
+              <input type="submit" class="sendBtn" value="Send" />
+            </form>
+          </div>
+        </div>
       </div>
     </div>
     <div class="attribution">
